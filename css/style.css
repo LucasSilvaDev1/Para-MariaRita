@@ -13,10 +13,9 @@
   position: fixed;
   right: 0;
   top: 0;
-  min-width: 100%;
-  max-width: 100%;
-  width: auto;
-  height: auto;
+
+  width: 100vw;
+  height: 100vh;
   z-index: -1000;
   object-fit: cover;
 }
@@ -195,7 +194,7 @@
   border: 4px solid #7f011f;
   border-radius: 10px;
   visibility: hidden;
-    background-image: url(../img-projeto/background-fotos.jpg);
+  background-image: url(../img-projeto/background-fotos.jpg);
 }
 
 .columns1 img,
