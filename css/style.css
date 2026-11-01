@@ -196,6 +196,7 @@
   visibility: hidden;
   background-image: url(../img-projeto/background-fotos.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .columns1 img,
@@ -377,7 +378,7 @@ footer {
 
 @media (max-width: 510px) {
   .conteudo {
-    margin: 0px 2%;
+    margin: 0px 2.5%;
     margin-top: 2rem;
   }
   .nomes {
@@ -416,6 +417,9 @@ footer {
 
   .allFotos h3 {
     font-size: 0.8rem;
+  }
+  .allFotos img {
+    width: 85%;
   }
 
   .columns1,
