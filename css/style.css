@@ -195,6 +195,7 @@
   border-radius: 10px;
   visibility: hidden;
   background-image: url(../img-projeto/background-fotos.jpg);
+  background-repeat: no-repeat;
 }
 
 .columns1 img,
