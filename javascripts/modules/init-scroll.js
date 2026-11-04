@@ -18,7 +18,6 @@ export default function initScroll() {
   }
   if (columnsLeft.length) {
     const windownMetade = window.innerHeight * 0.6;
-    console.log("eai");
     function animaScrollSides1() {
       columnsLeft.forEach((image) => {
         const sectionTop = image.getBoundingClientRect().top;

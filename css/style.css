@@ -22,7 +22,7 @@
 
 .conteudo {
   max-width: 1000px;
-  display: flex;
+  display: none;
   justify-self: center;
   flex-direction: column;
   margin-top: 4rem;
