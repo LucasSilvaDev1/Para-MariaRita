@@ -3,6 +3,8 @@ export default function OnVideoLoad() {
     const content = document.querySelector(".conteudo")
 
     backVideo.addEventListener('canplay', function () {
-        content.style.display = 'flex'
+        setTimeout(function () {
+            content.style.display = 'flex'
+        }, 5000)
     })
 }
